@@ -1,0 +1,58 @@
+{
+ "datum": "2026-09-29T18:58:40.397Z",
+ "fassung": "1.0",
+ "befunde": [
+  {
+   "gut": true,
+   "text": "keine Konsolenfehler"
+  },
+  {
+   "gut": true,
+   "text": "Werkzeug vor Text: erster Regler bei 264 px, Bühne bei 243 px, Taktknopf bei 684 px (Schranke: Regler und Bühne unter 500 px, Knopf im ersten Bildschirm unter 900 px)"
+  },
+  {
+   "gut": true,
+   "text": "Display-Rechnung gegen die Python-Nachrechnung aus main.py: 980 Kacheln, größte Abweichung 0.0e+0 K (Schranke 1e-9), abweichende Palettenindizes 0 (Schranke 0), Palette 0 von 256 verschieden (Schranke 0), Skala 16.40 … 37.58 °C (Δ 0.0e+0 K)"
+  },
+  {
+   "gut": true,
+   "text": "Min/Max an den Gegenständen (0,5 m, kein Rauschen, Sichtfeld eines Pixels 72.5 px): 6 Pixel liegen ganz auf der Tasse und zeigen 55.00/55.00/55.00/55.00/55.00/55.00 °C (eingestellt 55,00), 3 ganz auf dem Glas mit 8.00/8.00/8.00 °C (eingestellt 8,00); Matrix max 55.00, min 8.00 (Schranke: je > 0 Pixel, Abweichung ≤ 1e-12 K)"
+  },
+  {
+   "gut": true,
+   "text": "Mittel über die 49 Hintergrundpixel (kein Gegenstand im Sichtfeld): min 25.00 °C, max 25.50 °C, Mittel 25.1378 °C; 30 Pixel ganz über der Tischkante zeigen genau 25.00 °C (eingestellt 25,00), 8 ganz auf der Platte genau 25.50 °C (25,00 + 0,50), 0 außerhalb [25,00; 25,50] (Schranke 0); Umgebung auf 28 °C → Δmin 3.000000, Δmax 3.000000, ΔMittel 3.000000 K (Schranke |Δ − 3| ≤ 1e-9)"
+  },
+  {
+   "gut": true,
+   "text": "Deckung nach rechnerischer Ausrichtung (Größe 91 %, X 28 px, Spiegelung 0): warmer Fleck 18.3 px neben der Tassenmitte (Schranke ein Sensorpixel 72.5 px)"
+  },
+  {
+   "gut": true,
+   "text": "gedrehter Einbau: Spiegelung 3 (beide), Fleck 18.3 px neben der Tassenmitte (Schranke 72.5 px)"
+  },
+  {
+   "gut": true,
+   "text": "ohne Spiegelung bei gedrehtem Einbau: Fleck 145 px daneben (Schranke > 100 px) — die Häkchen sind nötig"
+  },
+  {
+   "gut": true,
+   "text": "Parallaxe: Position X 28 px bei 1 m, 63 px bei 0,3 m — Unterschied 35 px, gerechnet f·b·(1/0,3 − 1) = 35.2 px (Schranke 1 px, Rundung auf ganze Pixel)"
+  },
+  {
+   "gut": true,
+   "text": "Display-Board gezeichnet: 980 von 980 Kacheln tragen genau die Palettenfarbe der Rechnung (Schranke 980), Farbbalken oben rgb(248,252,248) = Palette 255, unten rgb(0,0,0) = Palette 0, 138 helle Bildpunkte im Skalenstreifen (Schranke > 0: die Zahlen am Balken)"
+  },
+  {
+   "gut": true,
+   "text": "Dokumentation in der Seite: Sensor (Grid-EYE), Ausrichtung mit Parallaxe, Vorgeschichte GPIO14, Kapitel 14 „Die Simulation in der Seite“"
+  },
+  {
+   "gut": true,
+   "text": "Dokumentation neutralisiert: 2 Fotos des Aufbaus geladen (Schranke 2), Platzhalterhinweis vorhanden (<WLAN-Name>, Kennwort als x-Folge), keine Adresse im Vierergruppenmuster, kein Kennwortwert"
+  },
+  {
+   "gut": true,
+   "text": "Kopf: Fassung 1.0 · 29.09.2026 · Prof. Dr.-Ing. Ralph Wystup M.Sc. — erstellt mit KI u"
+  }
+ ]
+}

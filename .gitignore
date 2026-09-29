@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+ausrichtung.json
+neutral_privat.json
