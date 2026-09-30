@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Arbeit verwenden, zitieren Sie sie bitte wie folgt."
+title: "Wärmebild-Fusion mit ESP32-CAM und AMG8833"
+abstract: "Kamerabild und Wärmebild deckungsgleich übereinander, mit 64 Thermoelementen und der Parallaxe zweier Augen, die drei Zentimeter auseinanderliegen."
+type: software
+authors:
+  - family-names: Wystup
+    given-names: Ralph
+    name-particle: ""
+    name-suffix: "Prof. Dr.-Ing., M.Sc."
+license: MIT
+url: "https://ralphwystup.github.io/Waermebild-Fusion-mit-ESP32-CAM-und-AMG8833/"
+repository-code: "https://github.com/RalphWystup/Waermebild-Fusion-mit-ESP32-CAM-und-AMG8833"
+date-released: "2026-09-30"
+keywords:
+  - Wärmebild
+  - AMG8833
+  - Grid-EYE
+  - ESP32-CAM
+  - Bildfusion
